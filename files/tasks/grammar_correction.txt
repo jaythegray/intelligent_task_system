@@ -1,29 +1,20 @@
-# Grammar Correction Tasks
-
-Correct the grammar in the following sentence:
-1. She don't like apples.
-2. The cat was chasing it’s tail.
-3. Me and her went to the store.
-4. They has been waiting for a long time.
-5. He runned to the park.
-
-Correct the punctuation in the following sentence:
-6. Lets go to the park she said
-7. Wow what a beautiful view
-8. Can you believe it
-9. The quick brown fox jumps over the lazy dog
-10. I cant wait to see you
-
-Fix the verb tense in the following sentence:
-11. Yesterday, she walk to the store.
-12. He is go to the gym every day.
-13. They have finish their homework.
-14. She was play basketball when I saw her.
-15. He has went to the party.
-
-Improve the sentence structure:
-16. Because I was hungry, so I ate.
-17. She is a good singer she sings beautifully.
-18. I like pizza, it's tasty.
-19. When it raining, I stay inside.
-20. The movie was good, I enjoyed it.
+1. Correct the grammar in the following sentence: She don't like apples.
+2. Correct the grammar in the following sentence: The cat was chasing it’s tail.
+3. Correct the grammar in the following sentence: Me and her went to the store.
+4. Correct the grammar in the following sentence: They has been waiting for a long time.
+5. Correct the grammar in the following sentence: He runned to the park.
+6. Correct the punctuation in the following sentence: Lets go to the park she said
+7. Correct the punctuation in the following sentence: Wow what a beautiful view
+8. Correct the punctuation in the following sentence: Can you believe it
+9. Correct the punctuation in the following sentence: The quick brown fox jumps over the lazy dog
+10. Correct the punctuation in the following sentence: I cant wait to see you
+11. Fix the verb tense in the following sentence: Yesterday, she walk to the store.
+12. Fix the verb tense in the following sentence: He is go to the gym every day.
+13. Fix the verb tense in the following sentence: They have finish their homework.
+14. Fix the verb tense in the following sentence: She was play basketball when I saw her.
+15. Fix the verb tense in the following sentence: He has went to the party.
+16. Improve the sentence structure: Because I was hungry, so I ate.
+17. Improve the sentence structure: She is a good singer she sings beautifully.
+18. Improve the sentence structure: I like pizza, it's tasty.
+19. Improve the sentence structure: When it raining, I stay inside.
+20. Improve the sentence structure: The movie was good, I enjoyed it.

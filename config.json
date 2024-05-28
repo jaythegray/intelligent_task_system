@@ -1,10 +1,14 @@
 {
-    "boss": "llama2-uncensored",
+    "boss": "llama3",
     "workerl": "moondream",
     "worker2": "tinyllama",
     "worker3": "tinydolphin",
     "task_file": "files/tasks/grammar_correction.txt",
-    "rounds": 2,
+    "rounds": 1,
+    "input_file": "files/tasks/grammar_correction.txt",
+    "output_file": "files/output.json",
     "log_file": "logs/log_file",
-    "dev_mode": false
+    "dev_mode": false,
+    "num_threads": 32,
+    "memory_limit": 64
 }

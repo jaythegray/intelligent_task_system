@@ -1,10 +1,7 @@
-from rich.console import Console
-
-console = Console()
+import asyncio
 
 
-def execute_task(task, worker_name):
-    console.print(f"[blue]{worker_name} executing task: {task}[/blue]")
-    # Simulate task execution logic
-    response = f"Response to {task} by {worker_name}"
-    return response
+async def execute_task(task, worker_name):
+    # Simulate task execution with a placeholder response
+    await asyncio.sleep(1)  # Simulate some delay
+    return f"Response to {task} by {worker_name}"

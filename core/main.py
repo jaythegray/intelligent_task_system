@@ -1,21 +1,43 @@
 from core.config_loader import load_config
 from core.worker_runner import execute_task
 from core.task_manager import assign_tasks, evaluate_responses
+from core.boss import initialize_boss_model
+import json
+import asyncio
+from rich.console import Console
+
+console = Console()
 
 
-def main():
+async def main():
     config = load_config()
-    tasks = ["Task 1", "Task 2", "Task 3"]  # Placeholder for actual task loading logic
-    workers = {
-        "workerl": execute_task,
-        "worker2": execute_task,
-        "worker3": execute_task
-    }
 
-    for _ in range(config["rounds"]):
-        responses = assign_tasks(workers, tasks)
-        evaluate_responses(responses)
+    # Read tasks from the input file
+    with open(config["input_file"], 'r') as f:
+        tasks = [line.strip() for line in f.readlines()]
 
+    workers = [
+        {"name": config["workerl"], "function": execute_task},
+        {"name": config["worker2"], "function": execute_task},
+        {"name": config["worker3"], "function": execute_task}
+    ]
+
+    boss_model = config["boss"]
+    output_file = config["output_file"]  # Read the output file from config
+    rounds = config.get("rounds", 1)  # Default to 1 round if not specified
+
+    # Initialize the boss model with grading instructions
+    initialize_boss_model(boss_model)
+
+    await assign_tasks(workers, tasks, output_file, rounds)
+
+    # Read the responses from the output file
+    responses = []
+    with open(output_file, 'r') as f:
+        for line in f:
+            responses.append(json.loads(line))
+
+    evaluate_responses(responses, boss_model, output_file)
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

@@ -1,0 +1,3 @@
+{"model_name": "workerl", "task": "Task 1", "response": "Response to Task 1 by workerl", "score": 60, "reason": "Grade: D. The response is vague and not well-structured, making it difficult to evaluate."}
+{"model_name": "worker2", "task": "Task 2", "response": "Response to Task 2 by worker2", "score": 1, "reason": "Grade: F. No reason provided"}
+{"model_name": "worker3", "task": "Task 3", "response": "Response to Task 3 by worker3", "score": 80, "reason": "Grade: B. No reason provided"}
