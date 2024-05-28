@@ -3,7 +3,7 @@
     "workerl": "moondream",
     "worker2": "tinyllama",
     "worker3": "tinydolphin",
-    "task_file": "files/tasks/task_category1.txt",
+    "task_file": "files/tasks/grammar_correction.txt",
     "rounds": 2,
     "log_file": "logs/log_file",
     "dev_mode": false

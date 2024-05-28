@@ -1,0 +1,29 @@
+# Math Problems
+
+Solve the following problems:
+1. What is 5 + 7?
+2. Subtract 9 from 15.
+3. Multiply 6 by 8.
+4. Divide 40 by 5.
+5. What is the square root of 81?
+
+Solve the following word problems:
+6. If you have 3 apples and you get 2 more, how many apples do you have in total?
+7. A train travels 60 miles per hour. How far will it travel in 3 hours?
+8. If a book costs $15 and you buy 4 books, how much will you spend?
+9. You have 24 candies and want to share them equally among 6 friends. How many candies does each friend get?
+10. If a rectangle has a length of 8 cm and a width of 5 cm, what is its area?
+
+Solve the following advanced problems:
+11. What is the derivative of x^2 + 3x + 2?
+12. Integrate the function 3x^2.
+13. Solve for x: 2x + 3 = 7.
+14. What is the value of pi to the first five decimal places?
+15. Calculate the factorial of 5.
+
+Solve the following geometry problems:
+16. What is the perimeter of a triangle with sides 3 cm, 4 cm, and 5 cm?
+17. Find the volume of a cube with a side length of 4 cm.
+18. What is the circumference of a circle with a radius of 7 cm?
+19. Calculate the area of a triangle with a base of 5 cm and a height of 12 cm.
+20. Find the surface area of a sphere with a radius of 6 cm.
